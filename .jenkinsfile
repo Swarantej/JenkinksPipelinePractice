@@ -1,0 +1,26 @@
+pipeline
+{
+agent any
+stages
+{
+stage('Build')
+{
+steps
+{
+#to run the commands which are in BUILD project
+bat mvn 'compile'
+}
+}
+
+stage('Deploy')
+{
+steps
+{
+#to display any message we use echo
+echo 'Deploying to QA'
+}
+}
+
+}
+
+}

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 40.692 s <<< FAILURE! - in TestSuite
+SeleniumDockerTest.SeleniumDocker.DockerGridTest1.startDockerScale  Time elapsed: 35.584 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at SeleniumDockerTest.SeleniumDocker.DockerGridTest1.startDockerScale(DockerGridTest1.java:23)
+
